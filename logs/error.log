@@ -23514,3 +23514,47 @@ Stack Trace:
 #3 {main}
 
 
+2016-03-11 12:18:49 Error: [Cake\Controller\Exception\MissingActionException] Action CocktailsController::2.json() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CocktailsController',
+  'action' => '2.json',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakerest/cocktails/2.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\AppController->invokeAction()
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-11 12:18:58 Error: [Cake\View\Exception\MissingTemplateException] Template file "Api/Cocktails/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Api/Cocktails/index.ctp',
+)
+Request URL: /cakerest/api/cocktails/
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('index')
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('index', NULL)
+#2 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(246): Cake\Controller\Controller->render('index')
+#3 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(56): Crud\Controller\Component\CrudComponent->execute()
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#6 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-11 12:19:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cocktails.json could not be found.
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakerest/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

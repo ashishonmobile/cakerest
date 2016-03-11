@@ -29,8 +29,7 @@ class AppController extends Controller {
 
     use \Crud\Controller\ControllerTrait;
 
-    public $components = [
-        'RequestHandler',
+public $components = [
         'Crud.Crud' => [
             'actions' => [
                 'Crud.Index',
@@ -38,12 +37,8 @@ class AppController extends Controller {
                 'Crud.Add',
                 'Crud.Edit',
                 'Crud.Delete'
-            ],
-            'listeners' => [
-                'Crud.Api',
-                'Crud.ApiPagination',
-                'Crud.ApiQueryLog'
             ]
-        ]
+        ],
+        'Flash'
     ];
 }
