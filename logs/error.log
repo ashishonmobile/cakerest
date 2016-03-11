@@ -23486,3 +23486,16 @@ Stack Trace:
 #1 {main}
 
 
+2016-03-11 12:05:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => 'json',
+)
+Request URL: /cakerest/index.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
