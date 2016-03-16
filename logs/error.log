@@ -23558,3 +23558,949 @@ Stack Trace:
 #1 {main}
 
 
+2016-03-16 11:11:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cocktails.json could not be found.
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakerest/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:08:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => 'json',
+)
+Request URL: /cakerest/api/users.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:08:55 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:10:40 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:10:52 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:11:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => 'json',
+)
+Request URL: /cakerest/api/users.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:11:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => 'json',
+)
+Request URL: /cakerest/api/users.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:11:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakerest/api/
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:11:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cocktails.xm could not be found.
+Exception Attributes: array (
+  'class' => 'Cocktails.xm',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => NULL,
+)
+Request URL: /cakerest/api/cocktails.xm
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class Cake\Network\Request could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 320
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class App\Controller\Api\CocktailsController could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 320
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class Cake\Event\Event could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 320
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class Cake\Network\Request could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Error\ExceptionRenderer::_outputMessageSafe() - CORE/src/Error/ExceptionRenderer.php, line 356
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 335
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class App\Controller\Api\CocktailsController could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Error\ExceptionRenderer::_outputMessageSafe() - CORE/src/Error/ExceptionRenderer.php, line 356
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 335
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Warning: Warning (4096): Object of class Cake\Event\Event could not be converted to string in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php, line 338]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 338
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 302
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::_createChild() - CORE/src/Utility/Xml.php, line 349
+Cake\Utility\Xml::_fromArray() - CORE/src/Utility/Xml.php, line 306
+Cake\Utility\Xml::fromArray() - CORE/src/Utility/Xml.php, line 233
+Cake\View\XmlView::_serialize() - CORE/src/View/XmlView.php, line 144
+Cake\View\SerializedView::render() - CORE/src/View/SerializedView.php, line 89
+Cake\Error\ExceptionRenderer::_outputMessageSafe() - CORE/src/Error/ExceptionRenderer.php, line 356
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 335
+Crud\Error\ExceptionRenderer::_outputMessage() - ROOT/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php, line 76
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 192
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 179
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 163
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:11:20 Error: Fatal Error (256): [Cake\Utility\Exception\XmlException] Invalid array
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(302): Cake\Utility\Xml::_createChild(Array)
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(302): Cake\Utility\Xml::_createChild(Array)
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(306): Cake\Utility\Xml::_createChild(Array)
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(306): Cake\Utility\Xml::_createChild(Array)
+#8 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(233): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMDocument), Array, 'tags')
+#9 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/View/XmlView.php(144): Cake\Utility\Xml::fromArray(Array, Array)
+#10 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/View/SerializedView.php(89): Cake\View\XmlView->_serialize(Array)
+#11 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(356): Cake\View\SerializedView->render('error500', 'error')
+#12 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(335): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#13 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php(76): Cake\Error\ExceptionRenderer->_outputMessage('error400')
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(192): Crud\Error\ExceptionRenderer->_outputMessage('error400')
+#15 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ErrorHandler.php(144): Cake\Error\ExceptionRenderer->render()
+#16 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(179): Cake\Error\ErrorHandler->_displayException(Object(Cake\Network\Exception\UnauthorizedException))
+#17 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(163): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Network\Exception\UnauthorizedException))
+#18 [internal function]: Cake\Error\BaseErrorHandler->wrapAndHandleException(Object(Cake\Network\Exception\UnauthorizedException))
+#19 {main} in [/Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2016-03-16 12:11:20 Error: [Cake\Error\FatalErrorException] [Cake\Utility\Exception\XmlException] Invalid array
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(302): Cake\Utility\Xml::_createChild(Array)
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(302): Cake\Utility\Xml::_createChild(Array)
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(306): Cake\Utility\Xml::_createChild(Array)
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(349): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMElement), Array, 'tags')
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(306): Cake\Utility\Xml::_createChild(Array)
+#8 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Utility/Xml.php(233): Cake\Utility\Xml::_fromArray(Object(DOMDocument), Object(DOMDocument), Array, 'tags')
+#9 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/View/XmlView.php(144): Cake\Utility\Xml::fromArray(Array, Array)
+#10 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/View/SerializedView.php(89): Cake\View\XmlView->_serialize(Array)
+#11 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(356): Cake\View\SerializedView->render('error500', 'error')
+#12 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(335): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#13 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Error/ExceptionRenderer.php(76): Cake\Error\ExceptionRenderer->_outputMessage('error400')
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(192): Crud\Error\ExceptionRenderer->_outputMessage('error400')
+#15 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/ErrorHandler.php(144): Cake\Error\ExceptionRenderer->render()
+#16 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(179): Cake\Error\ErrorHandler->_displayException(Object(Cake\Network\Exception\UnauthorizedException))
+#17 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(163): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Network\Exception\UnauthorizedException))
+#18 [internal function]: Cake\Error\BaseErrorHandler->wrapAndHandleException(Object(Cake\Network\Exception\UnauthorizedException))
+#19 {main}
+Request URL: /cakerest/api/cocktails.xml
+2016-03-16 12:11:20 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.xml
+2016-03-16 12:11:23 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:16:18 Error: Fatal Error (1): Call to a member function set() on a non-object in [/Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/BaseAction.php, line 193]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-16 12:16:18 Error: [Cake\Error\FatalErrorException] Call to a member function set() on a non-object
+Request URL: /cakerest/api/users/register
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Applications/A...', 193)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-16 12:16:34 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /cakerest/api/users/register
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Listener/ApiListener.php(114): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(505): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Core/ProxyTrait.php(37): Crud\Controller\Component\CrudComponent->trigger('beforeRender', Object(Crud\Event\Subject))
+#5 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(167): Crud\Core\Object->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(126): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/BaseAction.php(63): call_user_func_array(Array, Array)
+#9 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(228): Crud\Action\BaseAction->handle(Array)
+#10 /Applications/AMPPS/www/cakerest/src/Controller/Api/UsersController.php(34): Crud\Controller\Component\CrudComponent->execute()
+#11 [internal function]: App\Controller\Api\UsersController->add()
+#12 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#15 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-16 12:16:41 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /cakerest/api/users/register
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Listener/ApiListener.php(114): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(505): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Core/ProxyTrait.php(37): Crud\Controller\Component\CrudComponent->trigger('beforeRender', Object(Crud\Event\Subject))
+#5 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(167): Crud\Core\Object->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(126): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/BaseAction.php(63): call_user_func_array(Array, Array)
+#9 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(228): Crud\Action\BaseAction->handle(Array)
+#10 /Applications/AMPPS/www/cakerest/src/Controller/Api/UsersController.php(34): Crud\Controller\Component\CrudComponent->execute()
+#11 [internal function]: App\Controller\Api\UsersController->add()
+#12 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#15 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-16 12:17:55 Error: [Crud\Error\Exception\ValidationException] A validation error occurred
+Request URL: /cakerest/api/users/register
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Listener/ApiListener.php(114): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(505): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Core/ProxyTrait.php(37): Crud\Controller\Component\CrudComponent->trigger('beforeRender', Object(Crud\Event\Subject))
+#5 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(167): Crud\Core\Object->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(126): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/BaseAction.php(63): call_user_func_array(Array, Array)
+#9 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(228): Crud\Action\BaseAction->handle(Array)
+#10 /Applications/AMPPS/www/cakerest/src/Controller/Api/UsersController.php(34): Crud\Controller\Component\CrudComponent->execute()
+#11 [internal function]: App\Controller\Api\UsersController->add()
+#12 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#15 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-16 12:19:04 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::token() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'token',
+  'prefix' => 'api',
+  'plugin' => NULL,
+)
+Request URL: /cakerest/api/users/token
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#2 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-16 12:19:25 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::token() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'token',
+  'prefix' => 'api',
+  'plugin' => NULL,
+)
+Request URL: /cakerest/api/users/token
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#2 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-16 12:21:25 Error: [Crud\Error\Exception\ValidationException] A validation error occurred
+Request URL: /cakerest/api/users
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Listener/ApiListener.php(114): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(505): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Core/ProxyTrait.php(37): Crud\Controller\Component\CrudComponent->trigger('beforeRender', Object(Crud\Event\Subject))
+#5 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(167): Crud\Core\Object->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/AddAction.php(126): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Action/BaseAction.php(63): call_user_func_array(Array, Array)
+#9 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/Component/CrudComponent.php(228): Crud\Action\BaseAction->handle(Array)
+#10 /Applications/AMPPS/www/cakerest/src/Controller/Api/UsersController.php(34): Crud\Controller\Component\CrudComponent->execute()
+#11 [internal function]: App\Controller\Api\UsersController->add()
+#12 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#14 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#15 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-16 12:21:34 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/users
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\UsersController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:21:47 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:22:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Token could not be found.
+Exception Attributes: array (
+  'class' => 'Token',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => NULL,
+)
+Request URL: /cakerest/api/token
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:22:53 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /cakerest/api/users/token
+Stack Trace:
+#0 [internal function]: App\Controller\Api\UsersController->token()
+#1 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#4 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-03-16 12:23:56 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:24:10 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:24:13 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:31:27 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:31:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Token could not be found.
+Exception Attributes: array (
+  'class' => 'Token',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => NULL,
+)
+Request URL: /cakerest/api/token
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:32:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Token could not be found.
+Exception Attributes: array (
+  'class' => 'Token',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => NULL,
+)
+Request URL: /cakerest/api/token
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-16 12:32:37 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /cakerest/api/users/token
+Stack Trace:
+#0 [internal function]: App\Controller\Api\UsersController->token()
+#1 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#4 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-03-16 12:32:59 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /cakerest/api/users/token
+Stack Trace:
+#0 [internal function]: App\Controller\Api\UsersController->token()
+#1 /Applications/AMPPS/www/cakerest/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php(51): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\Api\AppController->invokeAction()
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#4 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-03-16 12:33:45 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:34:11 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:49:23 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:49:35 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:54:07 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:54:16 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 12:58:46 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:00:57 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:01:06 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:01:12 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:01:18 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:02:08 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:17:00 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:17:00 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:17:20 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:21:01 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:21:18 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json?_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImV4cCI6MTQ1ODczNzU0MH0.KyBUcIBp2UG_UJLKYpCNK8o6fBI-xcKWHnT5QH2HeDc
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:21:55 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:22:10 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:22:14 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2016-03-16 13:23:23 Error: [Cake\Network\Exception\UnauthorizedException] You are not authorized to access that location.
+Request URL: /cakerest/api/cocktails.json
+Stack Trace:
+#0 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(359): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(296): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\CocktailsController))
+#2 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(386): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#7 /Applications/AMPPS/www/cakerest/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Api\CocktailsController))
+#8 /Applications/AMPPS/www/cakerest/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
